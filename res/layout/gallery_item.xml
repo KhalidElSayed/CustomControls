@@ -1,0 +1,19 @@
+<LinearLayout xmlns:android="http://schemas.android.com/apk/res/android"
+    android:layout_width="fill_parent"
+    android:layout_height="fill_parent"
+    android:orientation="vertical" >
+
+    <com.tobykurien.customcontrols.GalleryImage
+        android:layout_width="fill_parent"
+        android:layout_height="wrap_content" 
+        android:id="@+id/gal_image"/>
+    
+    <TextView
+        android:id="@+id/gal_caption"
+        android:textAppearance="@android:style/TextAppearance.Medium"
+        android:layout_width="fill_parent"
+        android:layout_height="wrap_content" 
+        android:text="sample caption"
+        />
+    
+</LinearLayout>
